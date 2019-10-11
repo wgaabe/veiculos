@@ -36,11 +36,14 @@ public class janelaPrincipal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/icons8-mais-zoom-20.png"))); // NOI18N
         jMenu1.setText("Busca");
         jMenuBar1.add(jMenu1);
 
+        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/icons8-engarrafamento-20.png"))); // NOI18N
         jMenu2.setText("Cadastro");
 
+        BMCadastrarVeiculo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icons/icons8-adicionar-20.png"))); // NOI18N
         BMCadastrarVeiculo.setText("Cadastro de Veiculo");
         BMCadastrarVeiculo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -61,7 +64,7 @@ public class janelaPrincipal extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 279, Short.MAX_VALUE)
+            .addGap(0, 278, Short.MAX_VALUE)
         );
 
         pack();
